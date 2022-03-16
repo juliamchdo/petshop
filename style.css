@@ -1,0 +1,89 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(dog.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right;
+    margin: auto;
+}
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 60px;
+    letter-spacing: 3px;    
+    margin-left: 50px;
+    color: whitesmoke;
+    text-shadow: 3px 3px 3px rgb(184, 134, 11);
+    margin-bottom: 50px;
+}
+h2{
+    font-size: 55px;
+    color: darkgoldenrod;
+    margin-left: 90px;
+    margin-bottom: 2px;
+}
+main{
+    height: 310px;
+}
+.promo p{
+    font-size: 30px;
+    margin-left: 150px;
+}
+.cab nav li{
+    list-style: none;
+    display: inline-block;
+    border: 1px solid whitesmoke;
+    border-radius: 20px;
+    margin-left: 10px;
+    letter-spacing: 2px;
+}
+.cab nav ul{
+    text-align: right;
+    margin-right: 80px;
+    margin-top: 30px;
+}
+.cab nav a{
+    color: whitesmoke;
+    background: rgba(184,134,11, 0.4);
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    text-transform: uppercase;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.cab nav a:hover{
+    background-color: rgba(184,134,11, 0.8);;
+}
+.promo section li{
+    list-style: none;
+    display: inline-block;
+    border: 1px solid whitesmoke;
+    border-radius: 20px;
+    margin-left: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.promo section ul{
+    margin-left: 100px;
+}
+.promo section a{
+    display: block;
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 20px;
+    background-color: darkgoldenrod;
+    border-radius: 20px;
+}
+.promo section a:hover{
+    background-color: rgba(184,134,11, 0.8);;
+}
+footer{
+    font-size: 15px;
+    font-style: italic;
+    color: whitesmoke;
+    background-color: darkgoldenrod;
+    height: 55px;
+    border-bottom:1px solid transparent ;
+    text-align: center;
+    line-height: 55px;
+}
